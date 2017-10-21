@@ -1,0 +1,9 @@
+#imagen2 img{
+  width: 100%
+  -webkit-filter: grayscale(80%);
+  filter: grayscale(80%);
+}
+
+#imagen1 img{
+  width: 100%;
+}

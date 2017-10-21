@@ -1,0 +1,6 @@
+width: anchura virtual de una pantalla.
+height: altura virtual de una pantalla
+initial-scale: indica el zoom inicial.
+maximum-scale: escala maxima del documento.
+minimum-scale: escala minima del documento.
+user-scalable: sirve para indicar si se le permite al usuario hacer zoom o no.

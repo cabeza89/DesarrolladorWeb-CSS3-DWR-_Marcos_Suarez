@@ -1,0 +1,60 @@
+body{
+  margin: 20px;
+  background-color: #0099ff;
+  font-family: Arial;
+  color: white;
+}
+header h1{
+  text-align: center;
+}
+#contenido{
+  display: flex;
+  flex-direction: column;
+}
+#contenido h1{
+  padding: 10px;
+  text-align: center;
+}
+/* pie de pagina donde va info de contacto.*/
+footer{
+  margin-top: 10px;
+  padding-top: 10px;
+  text-align: center;
+}
+
+/* da estilo de columnas a las imagenes*/
+.contenedor{
+  display: flex;
+  flex-direction: row;
+}
+/*formato/detalles de las imagenes (tamaño, bordes, etc) */
+img{
+  border: 2px solid white;
+  width: 400px;
+}
+/* Formato del cuadro (imageness separadas, etc)*/
+.contenedor > div{
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+  width: 50%;
+}
+#imagen1 img{
+  -webkit-filter:grayscale(100%);
+  filter: grayscale(100);
+}
+
+#imagen2 img {
+  -webkit-filter: blur(10px);
+  filter: blur(10px);
+}
+
+#imagen3 img{
+  -webkit-filter:invert(100%);
+  filter: invert(100%);
+}
+
+#imagen4 img{
+  -webkit-filter:sepia(90%);
+  filter:sepia(90%);
+}

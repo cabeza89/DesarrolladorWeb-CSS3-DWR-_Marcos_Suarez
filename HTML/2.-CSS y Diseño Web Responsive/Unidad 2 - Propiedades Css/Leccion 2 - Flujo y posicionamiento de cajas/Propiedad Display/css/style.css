@@ -1,0 +1,10 @@
+h1{
+  background-color: rgba(255, 23, 34, 0.5);
+}
+h2{
+  background-color: rgba(255, 0, 0, 0.5);
+  display: inline;
+}
+p{
+  display: inline;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width:device-width,user-scalable=no">
+    <title>Transicion y Propiedades</title>
+    <style media="screen">
+      #contenedor{
+        width: 1000px;
+        height: 600px;
+        border: 2px solid;
+        margin: 0 auto;
+        background-color: blue;
+        transition: background 1s;
+      }
+      #contenedor img{
+        width: 200px;
+        height: 200px;
+        transition: width, 1s;
+        transition: height, 1s;
+      }
+      #contenedor img:hover{
+        width: 100%;/*sirve para agrandar la imagen a lo ancho*/
+        height: 100%;/* sirve para agrandar la imagen a lo alto*/
+      }
+    </style>
+  </head>
+  <body>
+    <section id="contenedor">
+      <img src="img/img.jpg" alt="imagen morocha"/>
+    </section>
+  </body>
+</html>

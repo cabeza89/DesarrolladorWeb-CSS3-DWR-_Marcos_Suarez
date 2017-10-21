@@ -1,0 +1,3 @@
+<audio loop> Para que se reproduzca automaticamente al terminar.
+<audio autoplay> para que se reproduzca el audio/video al abrir la pagina.
+<

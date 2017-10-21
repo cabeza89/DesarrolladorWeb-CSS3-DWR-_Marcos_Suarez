@@ -1,0 +1,16 @@
+text-shadow: le da sombra al texto.
+box-shadow: le da sombra a las cajas de textos.
+h-shadow: posicion horizontal de la sombra.
+v-shadow: posicion vertical de la sombra.
+blur: distancia del desenfoque.
+spread: tamaño de la sombra.
+color: color de la sombra.
+
+color: le da color al texto.
+background: color de fondo.
+
+TABLAS:
+
+border-collapse: hace que no se repitan los bordes o sea no se hagan doble linea (algo asi ll).
+text-align: alinear el texto horizontalmente. con las opciones (center(centrado), left, justify(justificado), right, inherit(no se q es).
+vertical-align: alinear el texto verticalmente. con (baseline, bottom, middle, sub, super, text-bottom, text-top, top, inherit.

@@ -1,0 +1,48 @@
+body {
+	margin-left: 15%;
+	font-family: Verdana;
+	width: 70%;
+	color: #605B56;
+}
+header{
+	padding: 3px 10px;
+	margin-bottom: 5px;
+	background: -webkit-linear-gradient(left, #5CA861, #BADFBC);/*para safari5.1 a 6.0*/
+	background: -o-linear-gradient(rigth, #5CA861, #BADFBC);/*para opera 11.1 a 12.0*/
+	background: -moz-linear-gradient(right, #5CA861, #BADFBC);/*para firefox 3.6 a 15*/
+	background: linear-gradient(to right, #5CA861, #BADFBC);/*standard syntax*/
+	border-radius: 10px;
+}
+header h1{
+	padding-left: 10px;
+}
+footer {
+	clear: both;
+	border-top: solid 2px #605B56;
+	padding-top: 10px;
+	margin-top: 15px;
+	text-align: center;
+}
+#menu-principal ul{
+	float: left;
+	width: 200px;
+	padding: 0;
+	margin: 0;
+}
+#menu-principal ul li{
+	list-style-type: none;
+	padding: 10px;
+}
+#contenido {
+	margin-left: 200px;
+	padding: 10px;
+	background: url(../imagenes/imagen3.jpg);
+	border-radius: 6px;
+	color: black;
+}
+#contenido p img{
+	float: right;
+	border: solid 2px #605B56;
+	margin: 3px;
+	border-radius: 4px;
+}

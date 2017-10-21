@@ -1,0 +1,87 @@
+body{
+  margin: 20px;
+  background-color: #0099ff;
+  font-family: Arial;
+  color: white;
+}
+header h1{
+  text-align: center;
+}
+#contenido{
+  display: flex;
+  flex-direction: column;
+}
+#contenido h1{
+  padding: 10px;
+  text-align: center;
+}
+/* pie de pagina donde va info de contacto.*/
+footer{
+  margin-top: 10px;
+  padding-top: 10px;
+  text-align: center;
+}
+
+/* da estilo de columnas a las imagenes*/
+.contenedor{
+  display: flex;
+  flex-direction: row;
+}
+/*formato/detalles de las imagenes (tamaño, bordes, etc) */
+img{
+  border: 2px solid white;
+  width: 400px;
+}
+/* Formato del cuadro (imageness separadas, etc)*/
+.contenedor > div{
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+  width: 50%;
+}
+#imagen1 img{
+  border: 4px solid white;
+  animation-name: imagen1-animacion;
+  animation-duration: 5s;
+}
+@keyframes imagen1-animacion{
+  from{
+    border: 1px solid black;
+  }
+  to{
+    border: 10px solid #ff9933;
+  }
+}
+
+#imagen2 img{
+  animation-name: imagen2-animacion;
+  animation-duration: 4s;
+  -webkit-animation-delay: 2s;
+  -moz-animation-delay: 2s;
+  -o-animation-delay: 2s;
+  animation-delay: 2s;
+}
+@keyframes imagen2-animacion{
+  0%{
+    position: relative;
+    left: 0px;
+  }
+  50%{
+    position: relative;
+    left: 500px;
+  }
+  100%{
+    position: relative;
+    left: 0px;
+  }
+}
+
+#imagen3{
+  background: black;
+  transition-property: background;
+  transition-duration: 2s;
+  transition-timing-function: linear;
+}
+#imagen3:hover{
+  background: white;
+}

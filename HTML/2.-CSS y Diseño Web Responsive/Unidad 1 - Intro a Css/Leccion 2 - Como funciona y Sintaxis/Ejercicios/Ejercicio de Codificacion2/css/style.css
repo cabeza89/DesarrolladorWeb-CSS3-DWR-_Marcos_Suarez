@@ -1,0 +1,15 @@
+body{
+	background: black;
+	font-family: verdana;
+	color: white;
+}
+h1{
+	font-family: Arial;
+}
+a{
+	color: white;
+}
+div{
+	margin-top: 10px;
+	margin-left: 20px;
+}

@@ -1,0 +1,11 @@
+h1{
+  font-family: cursive;
+  font-size: 30px;
+  color: red;
+  text-shadow: 3px 4px black;
+  background-color: gray;
+  text-align: center;
+}
+#fot1{
+  position: fixed;
+}

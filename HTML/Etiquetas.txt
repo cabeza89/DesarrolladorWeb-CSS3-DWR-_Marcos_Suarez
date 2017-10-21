@@ -1,0 +1,28 @@
+<em></em> convierte el texto en italica
+<strong></strong> convierte el texto en negrita
+<br> salto de linea
+<p> parrafos
+<ol> lista numerada
+<ul> lista con viñeta (asteriscos)
+<dl> creacion de listado de terminos
+<dt> definicion de termino
+<dd> contenido de definicion
+<img> agregar imagenes
+<table> crear tabla (<border> para darle borde a la tabla)
+<tr> para construir las filas de una tabla
+<td> para contruir las columnas de una tabla
+<thead> encabezado de una tabla
+<tbody> cuerpo de una tabla
+<tfoot> pie de una tabla
+<th> titulo resaltado de las tablas (<colspan> sirve para unificar espacios)
+<fieldset> envuelve el contenido despues de la etiqueta form
+<legend> titulo del formulario cuando se utiliza la etiqueta fieldset
+<input required> obliga a completar el campo antes de avanzar
+<audio src="" controls autoplay> reproduce el archivo automaticamente.
+<audio src="" controls loop> vuelve a reproducir el audio al terminar
+<video src (utiliza los mismo atributos)
+<source src="video/next.ogv" type="video"> sirve para definir un video(su formato mp4, webm, etc.) va dentro de la etiqueta video.
+<iframe src=""> sirve para agregar otra pagina web en la nuestra.
+<iframe src="" sandbox="allow-script"> sirve para bloquear las popups
+<image xlink:href="" width="" heigth=""> sirve para imagenes svg
+
